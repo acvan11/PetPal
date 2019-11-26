@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3303539723845B96007687B9 /* PetPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3303539523845B96007687B9 /* PetPal.xcdatamodeld */; };
+		3303539A23845F67007687B9 /* Friend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303539823845F67007687B9 /* Friend+CoreDataClass.swift */; };
+		3303539B23845F67007687B9 /* Friend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3303539923845F67007687B9 /* Friend+CoreDataProperties.swift */; };
 		DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */; };
 		DD6B33401F56E05F00F4C248 /* FriendData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B333F1F56E05F00F4C248 /* FriendData.swift */; };
 		DD6B33421F56E1A900F4C248 /* PetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6B33411F56E1A900F4C248 /* PetData.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3303539623845B96007687B9 /* PetPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetPal.xcdatamodel; sourceTree = "<group>"; };
+		3303539823845F67007687B9 /* Friend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3303539923845F67007687B9 /* Friend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friend+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD6B333B1F56DAD800F4C248 /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		DD6B333F1F56E05F00F4C248 /* FriendData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendData.swift; sourceTree = "<group>"; };
 		DD6B33411F56E1A900F4C248 /* PetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetData.swift; sourceTree = "<group>"; };
@@ -57,6 +63,7 @@
 				DD952D681F56D8AA00AF81B8 /* Main.storyboard */,
 				DD952D6B1F56D8AA00AF81B8 /* Assets.xcassets */,
 				DD952D6D1F56D8AA00AF81B8 /* LaunchScreen.storyboard */,
+				3303539523845B96007687B9 /* PetPal.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -74,6 +81,8 @@
 		DD952D581F56D8AA00AF81B8 = {
 			isa = PBXGroup;
 			children = (
+				3303539823845F67007687B9 /* Friend+CoreDataClass.swift */,
+				3303539923845F67007687B9 /* Friend+CoreDataProperties.swift */,
 				DD952D631F56D8AA00AF81B8 /* PetPal */,
 				DD952D621F56D8AA00AF81B8 /* Products */,
 			);
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3303539723845B96007687B9 /* PetPal.xcdatamodeld in Sources */,
+				3303539A23845F67007687B9 /* Friend+CoreDataClass.swift in Sources */,
 				DD952D671F56D8AA00AF81B8 /* MainViewController.swift in Sources */,
 				DD6B33441F56EC2400F4C248 /* FriendCell.swift in Sources */,
 				DD6B333C1F56DAD800F4C248 /* PetsViewController.swift in Sources */,
+				3303539B23845F67007687B9 /* Friend+CoreDataProperties.swift in Sources */,
 				DD719FFB1F578F96008392C8 /* Array+Extensions.swift in Sources */,
 				DD952D651F56D8AA00AF81B8 /* AppDelegate.swift in Sources */,
 				DDB438961F579FDB0078BBAD /* Int+Extension.swift in Sources */,
@@ -394,6 +406,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3303539523845B96007687B9 /* PetPal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3303539623845B96007687B9 /* PetPal.xcdatamodel */,
+			);
+			currentVersion = 3303539623845B96007687B9 /* PetPal.xcdatamodel */;
+			path = PetPal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD952D591F56D8AA00AF81B8 /* Project object */;
 }
